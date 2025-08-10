@@ -1,9 +1,5 @@
 module github.com/shoumodip/transmission-tui
 
-go 1.20
+go 1.21
 
-require (
-	github.com/shoumodip/screen-go v0.0.0-20230218094404-e231e32f7ed1 // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/term v0.5.0 // indirect
-)
+require github.com/vit1251/go-ncursesw v0.0.0-20211216195139-e61a3c4242a5
