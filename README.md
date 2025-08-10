@@ -2,8 +2,6 @@
 Simple TUI for [Transmission](https://transmissionbt.com/)
 
 ## Quick Start
-Install [Xclip](https://github.com/astrand/xclip) and [Transmission](https://transmissionbt.com/)
-
 ```console
 $ go build
 $ ./transmission-tui
@@ -18,5 +16,5 @@ $ ./transmission-tui
 | <kbd>k</kbd> | Move the cursor up                                   |
 | <kbd>g</kbd> | Move the cursor to the top                           |
 | <kbd>G</kbd> | Move the cursor to the bottom                        |
-| <kbd>a</kbd> | Add Torrent from link in clipboard                   |
+| <kbd>a</kbd> | Add torrent                                          |
 | <kbd>x</kbd> | Remove the torrent under the cursor                  |
